@@ -1,8 +1,7 @@
 """Helpers for the BCCD classification and detection notebook.
 
-The Vision Transformer and the DETR training loop are defined in the notebook
-so they can be read during an interview. This package covers file discovery,
-Pascal VOC parsing, splits, crops, and metric files.
+File discovery, Pascal VOC parsing, splits, crops, metric files, and .env keys
+live here. The models and training loops are in the notebook.
 """
 
 from bccd.boxes import (

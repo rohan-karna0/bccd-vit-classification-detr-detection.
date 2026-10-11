@@ -13,24 +13,17 @@ NOTEBOOK = ROOT / "notebooks" / "BCCD_ViT_Classification_DETR_Detection.ipynb"
 SECTIONS = [f"## Section {index}:" for index in range(1, 15)]
 SNIPPETS = [
     "class PatchEmbedding",
-    "class MultiHeadSelfAttention",
-    "class MLPBlock",
-    "class TransformerEncoderBlock",
-    "class ClassificationHead",
     "class VisionTransformer",
-    "class HungarianMatcher",
-    "class SmallCNN",
+    "vit_b_16",
     "DetrForObjectDetection",
     "MeanAveragePrecision",
     "def predict_cell",
     "def predict_detections",
-    "def draw_detections",
     "konstantinazov/bccd-dataset",
-    "SMOKE_TEST = False",
     "CrossEntropyLoss",
     "AdamW",
-    "linear_sum_assignment",
-    "not yet run",
+    "KAGGLE_API_TOKEN",
+    "HF_TOKEN",
 ]
 
 
